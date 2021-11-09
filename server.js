@@ -24,20 +24,6 @@ app.post('/api/notes', (req, res) => {
   }); 
 });
 
-/*  
-app.delete('/api/notes/:id', (req, res) => {
-  fs.readFile('./db/db.json', 'utf8', (err, data) => {
-    if (err) throw err;
-    let notes = JSON.parse(data); 
-    const newNotes = notes.filter(note => note.id !== parseInt(req.params.id));
-  
-  fs.writeFile('./db/db.json', JSON.stringify(newNotes), (err, data) => {
-    res.json({msg: 'successfully'});
-  });
-});
-});
-*/
-
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, './public/index.html'));
 });   
