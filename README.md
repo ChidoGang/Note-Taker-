@@ -1,5 +1,13 @@
 # Note Taker Starter Code
 
+## Screenshots 
+
+![Screenshot (3)](https://user-images.githubusercontent.com/89168938/141027501-6592a1a7-2b44-4f0e-a68e-2f74add09541.png)
+![Screenshot (4)](https://user-images.githubusercontent.com/89168938/141027513-bdd75b1d-8be9-4466-97f1-13b8aa41d47e.png)
+
+## Links 
+https://edgars-notetaker.herokuapp.com/
+
 ## Credits 
 Rutger coding Bootcamp starter code edited by Edgar.Q 
 
